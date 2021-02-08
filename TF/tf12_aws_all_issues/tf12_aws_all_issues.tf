@@ -7,7 +7,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "log_bucket" {
-  bucket = "my-tf-log-bucket1"
+  bucket = "my-tf-log-bucket"
   acl = "log-delivery-write"
 }
 resource "aws_s3_bucket" "foo" {
